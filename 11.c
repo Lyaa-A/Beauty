@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-08 16:20:34
- * @LastEditTime: 2020-12-08 18:37:43
+ * @LastEditTime: 2020-12-08 18:41:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \C_primer_plus\11.c
@@ -11,5 +11,6 @@
 int main()
 {
     printf("hello world\n");
+    printf("yeah!\n");
     return 0;
 }
