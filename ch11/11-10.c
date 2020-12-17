@@ -1,7 +1,7 @@
 /*
  * @Author: ya
  * @Date: 2020-12-16 21:01:24
- * @LastEditTime: 2020-12-16 22:49:39
+ * @LastEditTime: 2020-12-17 20:25:51
  * @LastEditors: Please set LastEditors
  * @Description: 编写一个函数接受一个字符串作为参数，并删除字符串中的空格。
  *          在一个程序中测试该函数，使用循环读取输入行，直到用户输入一行空行。
@@ -19,11 +19,11 @@ void del_space(char ar[]);
 int main()
 {
     char ar[MAX];
-    printf("Enter string 空行")
+    printf("Enter string 空行");
     fgets(ar,MAX,stdin);
     while(ar[0]!='\n')
     {
-
+        ;
     }    
     return 0;
 }
@@ -54,7 +54,7 @@ void del_space2(char ar[])
     {
         if(ar[i]==' ')
         {
-            ar[i]=ar[i+1]
+            ar[i]=ar[i+1];
         }
     }
 }
